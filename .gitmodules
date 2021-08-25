@@ -1,0 +1,6 @@
+[submodule "submodules/bgfx.cmake"]
+	path = submodules/bgfx.cmake
+	url = https://github.com/bkaradzic/bgfx.cmake
+[submodule "submodules/SDL2"]
+	path = submodules/SDL2
+	url = https://github.com/libsdl-org/SDL
