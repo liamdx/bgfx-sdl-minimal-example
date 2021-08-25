@@ -1,6 +1,6 @@
 # minimal-bgfx-sdl-example
 
-Minimal example of setting up SDL + BGFX. Compiled this on windows only but setup in code to support all platforms.
+Minimal example of setting up SDL + BGFX using CMake. Compiled this on windows only but setup in code to support all platforms.
 
 ## Building
 1. run git submodule update --init --recursive
