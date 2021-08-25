@@ -89,10 +89,11 @@ int main(int argc, char* args[]) {
     // Set view rectangle for 0th view
     bgfx::setViewRect(0, 0, 0, uint16_t(WIDTH), uint16_t(HEIGHT));
 
+    uint32_t clearColour = 255 << 24 | 128 << 16 | 0 << 8 | 255;
     // Clear the view rect
     bgfx::setViewClear(0,
         BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH,
-        0x443355FF, 1.0f, 0);
+        clearColour, 1.0f, 0);
 
     // Set empty primitive on screen
     bgfx::touch(0);
